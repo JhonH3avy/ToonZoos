@@ -72,8 +72,8 @@ TextureImporter:
         y: 1740
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_1
       rect:
@@ -82,8 +82,8 @@ TextureImporter:
         y: 1740
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_2
       rect:
@@ -92,8 +92,8 @@ TextureImporter:
         y: 1740
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_3
       rect:
@@ -102,8 +102,8 @@ TextureImporter:
         y: 1740
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_4
       rect:
@@ -112,8 +112,8 @@ TextureImporter:
         y: 1432
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_5
       rect:
@@ -122,8 +122,8 @@ TextureImporter:
         y: 1432
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_6
       rect:
@@ -132,8 +132,8 @@ TextureImporter:
         y: 1432
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_7
       rect:
@@ -142,8 +142,8 @@ TextureImporter:
         y: 1432
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_8
       rect:
@@ -152,8 +152,8 @@ TextureImporter:
         y: 1124
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_9
       rect:
@@ -162,8 +162,8 @@ TextureImporter:
         y: 1124
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_10
       rect:
@@ -172,18 +172,18 @@ TextureImporter:
         y: 1124
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_11
       rect:
         serializedVersion: 2
-        x: 738
+        x: 740
         y: 1124
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_12
       rect:
@@ -192,8 +192,8 @@ TextureImporter:
         y: 816
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_13
       rect:
@@ -202,7 +202,7 @@ TextureImporter:
         y: 816
         width: 246
         height: 308
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_14
@@ -212,8 +212,8 @@ TextureImporter:
         y: 816
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_15
       rect:
@@ -222,8 +222,8 @@ TextureImporter:
         y: 816
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_16
       rect:
@@ -232,8 +232,8 @@ TextureImporter:
         y: 508
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_17
       rect:
@@ -242,8 +242,8 @@ TextureImporter:
         y: 508
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_18
       rect:
@@ -252,8 +252,8 @@ TextureImporter:
         y: 508
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_19
       rect:
@@ -262,8 +262,8 @@ TextureImporter:
         y: 508
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_20
       rect:
@@ -272,8 +272,8 @@ TextureImporter:
         y: 200
         width: 246
         height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
