@@ -64,7 +64,6 @@ public class TrackController2 : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		string lanes = "lanes:";
 		for(int i = 0;i< trackCount;i++){
 			float lane = GetLaneByIdx(i);
 			 Vector3 start = new Vector3(startPos, transform.position.y, lane);
