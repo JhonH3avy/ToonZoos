@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class CameraMovement : Photon.MonoBehaviour
+public class CameraMovement : MonoBehaviour
 {
 
 	public float smoothing = 5f;
