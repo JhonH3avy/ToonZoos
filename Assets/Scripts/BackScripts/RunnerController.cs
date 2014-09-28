@@ -4,123 +4,147 @@ using System.Collections;
 [RequireComponent (typeof (Animator), typeof (Renderer))]
 public class RunnerController : MonoBehaviour
 {
-	public float speed = 2.0f;
-	public float changeTrackSmooth = 1.0f;
-	public bool isRunning;
-
-	private TrackController tracker;
-	private int _trackIndex;
-	private Animator anim;
-
-	public int trackIndex
+	public enum CharacterState
 	{
-		set
-		{
-			_trackIndex = value;
-			renderer.sortingOrder = value;
-		}
-
-		get
-		{
-			return _trackIndex;
-		}
+		Ready,
+		Running,
+		Falling,
+		Jumping,
+		Changing_Track
 	}
+
+	public float speed = 1.0f;
+	public float speedFactor = 1.0f;
+	public float changeTrackSmooth = 1.0f;
+	public float nextPosDistance = 0.2F;
+	public float timeDelay = 0.2f;
+
+	private CharacterState curState;
+	private CharacterState nextState;
+	private TrackControllerB tracker;
+	private float nextX;
+	private float currZ;
+	private float nextZ;
+	private Animator anim;
+	private float nextTime;
 
 	private void Awake ()
 	{
 		anim = GetComponent<Animator> ();
-		tracker = TrackController.Instance;
-		tracker.players.Add (gameObject);
+		tracker = TrackControllerB.Instance;
 	}
 
 	private void Start ()
 	{
-		isRunning = false;
+		curState = CharacterState.Ready;
+		currZ = tracker.GetAvailableTrack ();
+		nextTime = Time.time * timeDelay;
 	}
 
 	#region Enable/Disable
+
 	private void OnEnable ()
 	{
-		TrackController.RaceStarted += StartRunning;
+		TrackControllerB.RaceStarted += StartRunning;
 	}
 
 	private void OnDisable ()
 	{
-		TrackController.RaceStarted -= StartRunning;
+		TrackControllerB.RaceStarted -= StartRunning;
 	}
-	#endregion
+
+    #endregion
 
 	#region Commands
 
 	public void TrackUp ()
 	{
-		if (trackIndex <= 0)
-			return;
-
-		trackIndex--;
-		Vector3 newPos = tracker.AssignTrack (trackIndex);
-		StopCoroutine ("ChangeTrack");
-		StartCoroutine ("ChangeTrack", newPos);
+		nextZ = tracker.GetTrackAbove (currZ);
+		nextState = CharacterState.Changing_Track;
 	}
 
 	public void TrackDown ()
 	{
-		if (trackIndex >= 3)
-			return;
-
-		trackIndex++;
-		Vector3 newPos = tracker.AssignTrack (trackIndex);
-		StopCoroutine ("ChangeTrack");
-		StartCoroutine ("ChangeTrack", newPos);
-	}
-
-	public void Jump ()
-	{
-		anim.SetTrigger ("Jump");
-	}
-
-	public void Ability ()
-	{
-
+		nextZ = tracker.GetTrackBelow (currZ);
+		nextState = CharacterState.Changing_Track;
 	}
 
 	#endregion
 
 	private void StartRunning ()
 	{
-		isRunning = true;
+		nextState = CharacterState.Running;
+		nextX = speed * speedFactor * (Time.time + timeDelay);
 		anim.SetTrigger ("IsRunning");
-		StartCoroutine ("Run");
 	}
 
-	public void StopRunning ()
+	private void Update ()
 	{
-		StopCoroutine ("Run");
-	}
-
-	private IEnumerator Run ()
-	{
-		while (isRunning)
+		if (Time.time >= nextTime)
 		{
-			transform.Translate (Vector3.right * speed * Time.deltaTime);
-			yield return null;
+			if (nextState != curState)
+			{
+				ChangeState ();
+			}
+			ExecuteState ();
+		}
+
+		transform.position = Vector3.Lerp (transform.position, new Vector3 (nextX, transform.position.y, currZ), speed * Time.deltaTime);
+	}
+
+	private void ChangeState ()
+	{
+		switch (nextState)
+		{
+		case CharacterState.Falling:
+
+			break;
+
+		case CharacterState.Ready:
+
+			break;
+
+		case CharacterState.Running:
+			if (curState == CharacterState.Ready)
+				curState = nextState;
+			break;
+
+		case CharacterState.Jumping:
+
+			break;
+
+		case CharacterState.Changing_Track:
+			if (curState == CharacterState.Running)
+				curState = nextState;
+			break;
 		}
 	}
-		
-	private IEnumerator ChangeTrack (Vector3 targetPos)
-	{
-		targetPos = new Vector3 (transform.position.x, targetPos.y, 0.0f);
 
-		while (targetPos != transform.position)
+	private void ExecuteState ()
+	{
+		switch (curState)
 		{
-			transform.position = Vector3.Lerp (transform.position, targetPos, changeTrackSmooth * Time.deltaTime);
-			yield return null;
-			targetPos = new Vector3 (transform.position.x, targetPos.y, 0.0f);
-		}
-	}
+		case CharacterState.Falling:
 
-	public void SlowDown ()
-	{
-		speed *= 0.5f;
+			break;
+
+		case CharacterState.Ready:
+
+			break;
+
+		case CharacterState.Running:
+			nextX = speed * speedFactor * (Time.time + timeDelay);
+			break;
+
+		case CharacterState.Jumping:
+
+			break;
+
+		case CharacterState.Changing_Track:
+			nextX = speed * speedFactor * (Time.time + timeDelay);
+			currZ = nextZ;
+			nextState = CharacterState.Running;
+			break;
+		}
 	}
 }

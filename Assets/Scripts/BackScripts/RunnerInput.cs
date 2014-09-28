@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent (typeof (RunnerController))]
 public class RunnerInput : MonoBehaviour
 {
-	private TrackController tracker;
+	private TrackControllerB tracker;
 	private RunnerController controller;
 
 	private void Awake ()
@@ -14,8 +14,6 @@ public class RunnerInput : MonoBehaviour
 
 	private void FixedUpdate ()
 	{
-		if (!controller.isRunning)
-			return;
 
 		if (Input.GetButtonDown ("Vertical"))
 		{
@@ -32,12 +30,12 @@ public class RunnerInput : MonoBehaviour
 		
 		if (Input.GetButtonDown ("Jump"))
 		{
-			controller.Jump ();
+			//controller.Jump ();
 		}
 		
 		if (Input.GetButtonDown ("Fire1"))
 		{
-			controller.Ability ();
+			//controller.Ability ();
 		}
 	}
 }

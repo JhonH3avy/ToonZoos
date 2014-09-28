@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class TrackController : Singleton<TrackController>
+public class TrackControllerB : Singleton<TrackControllerB>
 {
 	public List<GameObject> players;
 	public List<Transform> trackBenchamarks;
@@ -48,6 +48,34 @@ public class TrackController : Singleton<TrackController>
 	
 	#endregion
 
+	public float GetAvailableTrack () 
+	{
+		return 0;
+	}
+
+	/**
+	 * Retorna la coordenada Y de una pista disponible o negativo si no hay ninguna disponible 
+	 * */
+	public float getAvailableTrack(){
+		//TODO Implementar
+		return 0f;
+	}
+	
+	/**
+	 * Retorna la coordenada Y de la pista que está por encima de track.
+	 * */
+	public float GetTrackAbove(float track){
+		//TODO basado en la altura del collider, retornar el track.Y que queda justo encima 
+		//	de "track" dado el número de carriles. Si supera el borde, retorna el borde
+		return 1 + track;
+	}
+	
+	public float GetTrackBelow(float track){
+		//TODO basado en la altura del collider, retornar el track.Y que queda justo encima 
+		//	de "track" dado el número de carriles. Si supera el borde, retorna el borde
+		return track - 1;	
+	}
+
 	private void Awake ()
 	{
 		if (Instance == this)
@@ -62,19 +90,7 @@ public class TrackController : Singleton<TrackController>
 
 	private IEnumerator Start ()
 	{
-		for (int i = 0; i < players.Count; i++)
-		{
-			players[i].transform.position = trackBenchamarks[i].position;
-			players[i].GetComponent<RunnerController> ().trackIndex = i;
-			Debug.Log ("Los posiciono");
-		}
-
 		yield return new WaitForSeconds (2.0f);
 		OnRaceStarted ();
-	}
-
-	public Vector3 AssignTrack (int trackIndex)
-	{
-		return trackBenchamarks[trackIndex].position;
 	}
 }

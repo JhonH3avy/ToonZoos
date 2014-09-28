@@ -1,0 +1,982 @@
+fileFormatVersion: 2
+guid: 13a3a32fe1b4e464eb15f75d4165a25e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sprite Sheet aguila_0
+    21300002: Sprite Sheet aguila_1
+    21300004: Sprite Sheet aguila_2
+    21300006: Sprite Sheet aguila_3
+    21300008: Sprite Sheet aguila_4
+    21300010: Sprite Sheet aguila_5
+    21300012: Sprite Sheet aguila_6
+    21300014: Sprite Sheet aguila_7
+    21300016: Sprite Sheet aguila_8
+    21300018: Sprite Sheet aguila_9
+    21300020: Sprite Sheet aguila_10
+    21300022: Sprite Sheet aguila_11
+    21300024: Sprite Sheet aguila_12
+    21300026: Sprite Sheet aguila_13
+    21300028: Sprite Sheet aguila_14
+    21300030: Sprite Sheet aguila_15
+    21300032: Sprite Sheet aguila_16
+    21300034: Sprite Sheet aguila_17
+    21300036: Sprite Sheet aguila_18
+    21300038: Sprite Sheet aguila_19
+    21300040: Sprite Sheet aguila_20
+    21300042: Sprite Sheet aguila_21
+    21300044: Sprite Sheet aguila_22
+    21300046: Sprite Sheet aguila_23
+    21300048: Sprite Sheet aguila_24
+    21300050: Sprite Sheet aguila_25
+    21300052: Sprite Sheet aguila_26
+    21300054: Sprite Sheet aguila_27
+    21300056: Sprite Sheet aguila_28
+    21300058: Sprite Sheet aguila_29
+    21300060: Sprite Sheet aguila_30
+    21300062: Sprite Sheet aguila_31
+    21300064: Sprite Sheet aguila_32
+    21300066: Sprite Sheet aguila_33
+    21300068: Sprite Sheet aguila_34
+    21300070: Sprite Sheet aguila_35
+    21300072: Sprite Sheet aguila_36
+    21300074: Sprite Sheet aguila_37
+    21300076: Sprite Sheet aguila_38
+    21300078: Sprite Sheet aguila_39
+    21300080: Sprite Sheet aguila_40
+    21300082: Sprite Sheet aguila_41
+    21300084: Sprite Sheet aguila_42
+    21300086: Sprite Sheet aguila_43
+    21300088: Sprite Sheet aguila_44
+    21300090: Sprite Sheet aguila_45
+    21300092: Sprite Sheet aguila_46
+    21300094: Sprite Sheet aguila_47
+    21300096: Sprite Sheet aguila_48
+    21300098: Sprite Sheet aguila_49
+    21300100: Sprite Sheet aguila_50
+    21300102: Sprite Sheet aguila_51
+    21300104: Sprite Sheet aguila_52
+    21300106: Sprite Sheet aguila_53
+    21300108: Sprite Sheet aguila_54
+    21300110: Sprite Sheet aguila_55
+    21300112: Sprite Sheet aguila_56
+    21300114: Sprite Sheet aguila_57
+    21300116: Sprite Sheet aguila_58
+    21300118: Sprite Sheet aguila_59
+    21300120: Sprite Sheet aguila_60
+    21300122: Sprite Sheet aguila_61
+    21300124: Sprite Sheet aguila_62
+    21300126: Sprite Sheet aguila_63
+    21300128: Sprite Sheet aguila_64
+    21300130: Sprite Sheet aguila_65
+    21300132: Sprite Sheet aguila_66
+    21300134: Sprite Sheet aguila_67
+    21300136: Sprite Sheet aguila_68
+    21300138: Sprite Sheet aguila_69
+    21300140: Sprite Sheet aguila_70
+    21300142: Sprite Sheet aguila_71
+    21300144: Sprite Sheet aguila_72
+    21300146: Sprite Sheet aguila_73
+    21300148: Sprite Sheet aguila_74
+    21300150: Sprite Sheet aguila_75
+    21300152: Sprite Sheet aguila_76
+    21300154: Sprite Sheet aguila_77
+    21300156: Sprite Sheet aguila_78
+    21300158: Sprite Sheet aguila_79
+    21300160: Sprite Sheet aguila_80
+    21300162: Sprite Sheet aguila_81
+    21300164: Sprite Sheet aguila_82
+    21300166: Sprite Sheet aguila_83
+    21300168: Sprite Sheet aguila_84
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sprite Sheet aguila_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 3200
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3200
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 3200
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_4
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3200
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_5
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3200
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_6
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3200
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_7
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 3200
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2880
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_10
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2880
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_11
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2880
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_12
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2880
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_13
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2880
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_14
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2880
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_15
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 2880
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2560
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_18
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2560
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_19
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2560
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_20
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2560
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_21
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2560
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_22
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2560
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_23
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 2560
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_25
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2240
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_26
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2240
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_27
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2240
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_28
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2240
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_29
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2240
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_30
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2240
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_31
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 2240
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1920
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_34
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1920
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_35
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1920
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_36
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1920
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_37
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1920
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_38
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1920
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_39
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 1920
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1600
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_42
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1600
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_43
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1600
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_44
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1600
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_45
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1600
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_46
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1600
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_47
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 1600
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_49
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1280
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_50
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1280
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_51
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1280
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_52
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1280
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_53
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1280
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_54
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1280
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_55
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 1280
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_57
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 960
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_58
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 960
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_59
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 960
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_60
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 960
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_61
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 960
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_62
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 960
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_63
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 960
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_65
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 640
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_66
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 640
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_67
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 640
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_68
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 640
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_69
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 640
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_70
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 640
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_71
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 640
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_73
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 320
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_74
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 320
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_75
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 320
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_76
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 320
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_77
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 320
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_78
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 320
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_79
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 320
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_81
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_82
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_83
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite Sheet aguila_84
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 350
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
