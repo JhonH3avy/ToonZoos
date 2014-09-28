@@ -6,16 +6,16 @@ using System.Collections;
  * */
 public class SkyMovement : MonoBehaviour {
 
-	Camera camera;
+	Camera mainCamera;
+
 	// Use this for initialization
 	void Start () {
-		camera = GameObject.FindObjectOfType<Camera>();
-		if(camera == null)
-			throw new UnityException("Camera not found!s");
+		mainCamera = GameObject.FindObjectOfType<Camera>();
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position = new Vector3(camera.transform.position.x, transform.position.y, transform.position.z);
+		transform.position = new Vector3(mainCamera.transform.position.x, transform.position.y, transform.position.z);
 	}
 }
