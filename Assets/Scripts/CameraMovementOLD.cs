@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class CameraMovement : MonoBehaviour
+public class CameraMovementOLD : MonoBehaviour
 {
 
 	public float smoothing = 5f;

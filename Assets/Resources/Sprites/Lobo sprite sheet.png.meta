@@ -202,8 +202,8 @@ TextureImporter:
         y: 816
         width: 246
         height: 308
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .102681503}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo sprite sheet_14
       rect:

@@ -21,7 +21,7 @@ public class RunnerController : MonoBehaviour
 
 	private CharacterState curState;
 	private CharacterState nextState;
-	private TrackControllerB tracker;
+	private TrackController tracker;
 	private float nextX;
 	private float currZ;
 	private float nextZ;
@@ -31,13 +31,13 @@ public class RunnerController : MonoBehaviour
 	private void Awake ()
 	{
 		anim = GetComponent<Animator> ();
-		tracker = TrackControllerB.Instance;
+		tracker = TrackController.instance;
 	}
 
 	private void Start ()
 	{
 		curState = CharacterState.Ready;
-		currZ = tracker.GetAvailableTrack ();
+		currZ = tracker.GetAvailableLane ();
 		nextTime = Time.time * timeDelay;
 	}
 
@@ -45,12 +45,12 @@ public class RunnerController : MonoBehaviour
 
 	private void OnEnable ()
 	{
-		TrackControllerB.RaceStarted += StartRunning;
+		TrackController.RaceStarted += StartRunning;
 	}
 
 	private void OnDisable ()
 	{
-		TrackControllerB.RaceStarted -= StartRunning;
+		TrackController.RaceStarted -= StartRunning;
 	}
 
     #endregion
@@ -59,13 +59,13 @@ public class RunnerController : MonoBehaviour
 
 	public void TrackUp ()
 	{
-		nextZ = tracker.GetTrackAbove (currZ);
+		nextZ = tracker.GetLaneAbove (currZ);
 		nextState = CharacterState.Changing_Track;
 	}
 
 	public void TrackDown ()
 	{
-		nextZ = tracker.GetTrackBelow (currZ);
+		nextZ = tracker.GetLaneBelow (currZ);
 		nextState = CharacterState.Changing_Track;
 	}
 

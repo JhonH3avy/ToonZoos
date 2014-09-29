@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent (typeof (RunnerController))]
 public class RunnerInput : MonoBehaviour
 {
-	private TrackControllerB tracker;
+	private TrackController tracker;
 	private RunnerController controller;
 
 	private void Awake ()
