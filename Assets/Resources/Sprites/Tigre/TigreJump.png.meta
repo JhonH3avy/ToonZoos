@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 2ff77714e521ac44aaef083e1c762308
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TigreJump
+    21300002: TigreJump_0
+    21300004: TigreJump_1
+    21300006: TigreJump_2
+    21300008: TigreJump_3
+    21300010: TigreJump_4
+    21300012: TigreJump_5
+    21300014: TigreJump_6
+    21300016: TigreJump_7
+    21300018: TigreJump_8
+    21300020: TigreJump_9
+    21300022: TigreJump_10
+    21300024: TigreJump_11
+    21300026: TigreJump_12
+    21300028: TigreJump_13
+    21300030: TigreJump_14
+    21300032: TigreJump_15
+    21300034: TigreJump_16
+    21300036: TigreJump_17
+    21300038: TigreJump_18
+    21300040: TigreJump_19
+    21300042: TigreJump_20
+    21300044: TigreJump_21
+    21300046: TigreJump_22
+    21300048: TigreJump_23
+    21300050: TigreJump_24
+    21300052: TigreJump_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: TigreJump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_1
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2800
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_2
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2800
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2450
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2450
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2450
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_10
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_13
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_14
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_17
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_20
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_23
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreJump_25
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

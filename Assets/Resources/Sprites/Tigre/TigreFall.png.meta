@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: da9a8e10942ab2b429e8f1d97ed007b9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TigreFall
+    21300002: TigreFall_0
+    21300004: TigreFall_1
+    21300006: TigreFall_2
+    21300008: TigreFall_3
+    21300010: TigreFall_4
+    21300012: TigreFall_5
+    21300014: TigreFall_6
+    21300016: TigreFall_7
+    21300018: TigreFall_8
+    21300020: TigreFall_9
+    21300022: TigreFall_10
+    21300024: TigreFall_11
+    21300026: TigreFall_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: TigreFall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_1
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_2
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_10
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TigreFall_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

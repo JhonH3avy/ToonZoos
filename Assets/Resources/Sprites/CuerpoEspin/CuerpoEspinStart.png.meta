@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: 43eb495714949454fab2a6f6f2980915
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CuerpoEspinStart
+    21300002: CuerpoEspinStart_0
+    21300004: CuerpoEspinStart_1
+    21300006: CuerpoEspinStart_2
+    21300008: CuerpoEspinStart_3
+    21300010: CuerpoEspinStart_4
+    21300012: CuerpoEspinStart_5
+    21300014: CuerpoEspinStart_6
+    21300016: CuerpoEspinStart_7
+    21300018: CuerpoEspinStart_8
+    21300020: CuerpoEspinStart_9
+    21300022: CuerpoEspinStart_10
+    21300024: CuerpoEspinStart_11
+    21300026: CuerpoEspinStart_12
+    21300028: CuerpoEspinStart_13
+    21300030: CuerpoEspinStart_14
+    21300032: CuerpoEspinStart_15
+    21300034: CuerpoEspinStart_16
+    21300036: CuerpoEspinStart_17
+    21300038: CuerpoEspinStart_18
+    21300040: CuerpoEspinStart_19
+    21300042: CuerpoEspinStart_20
+    21300044: CuerpoEspinStart_21
+    21300046: CuerpoEspinStart_22
+    21300048: CuerpoEspinStart_23
+    21300050: CuerpoEspinStart_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: CuerpoEspinStart_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_1
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2800
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_2
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2800
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2450
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2450
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2450
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_10
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_13
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_14
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_17
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_20
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_23
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CuerpoEspinStart_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

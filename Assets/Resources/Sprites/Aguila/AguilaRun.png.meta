@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: a907b52c8fc1c334ea07ff6e80d90726
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AguilaRun
+    21300002: AguilaRun_0
+    21300004: AguilaRun_1
+    21300006: AguilaRun_2
+    21300008: AguilaRun_3
+    21300010: AguilaRun_4
+    21300012: AguilaRun_5
+    21300014: AguilaRun_6
+    21300016: AguilaRun_7
+    21300018: AguilaRun_8
+    21300020: AguilaRun_9
+    21300022: AguilaRun_10
+    21300024: AguilaRun_11
+    21300026: AguilaRun_12
+    21300028: AguilaRun_13
+    21300030: AguilaRun_14
+    21300032: AguilaRun_15
+    21300034: AguilaRun_16
+    21300036: AguilaRun_17
+    21300038: AguilaRun_18
+    21300040: AguilaRun_19
+    21300042: AguilaRun_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: AguilaRun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_1
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_2
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_10
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_13
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_14
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_17
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaRun_20
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: e4ac36316b7edf144a8a4eb0f5dbcbca
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AguilaJump
+    21300002: AguilaJump_0
+    21300004: AguilaJump_1
+    21300006: AguilaJump_2
+    21300008: AguilaJump_3
+    21300010: AguilaJump_4
+    21300012: AguilaJump_5
+    21300014: AguilaJump_6
+    21300016: AguilaJump_7
+    21300018: AguilaJump_8
+    21300020: AguilaJump_9
+    21300022: AguilaJump_10
+    21300024: AguilaJump_11
+    21300026: AguilaJump_12
+    21300028: AguilaJump_13
+    21300030: AguilaJump_14
+    21300032: AguilaJump_15
+    21300034: AguilaJump_16
+    21300036: AguilaJump_17
+    21300038: AguilaJump_18
+    21300040: AguilaJump_19
+    21300042: AguilaJump_20
+    21300044: AguilaJump_21
+    21300046: AguilaJump_22
+    21300048: AguilaJump_23
+    21300050: AguilaJump_24
+    21300052: AguilaJump_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AguilaJump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_1
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2800
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_2
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2800
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2450
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2450
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2450
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2100
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_10
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1750
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_13
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_14
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1400
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_17
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1050
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_20
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 700
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_23
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 350
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AguilaJump_25
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 440
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
