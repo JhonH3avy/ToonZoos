@@ -38,4 +38,10 @@ public class RunnerInput : MonoBehaviour
 			//controller.Ability ();
 		}
 	}
+
+	private void OnMouseUpAsButton ()
+	{	
+		// El metodo GetUp solo reacionara cuando el personaje se encuentre en el estado Falling
+		controller.GetUp ();
+	}
 }

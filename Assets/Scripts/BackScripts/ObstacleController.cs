@@ -12,6 +12,7 @@ public abstract class ObstacleController : MonoBehaviour
 
 	private void Start ()
 	{
+		//TODO El track controller me tiene que pasar el x para ubicar al obstaculo
 		//transform.position.Set (transform.position.x, transform.position.y, tracker.GetLaneByIdx (Random.Range(0,4)));
 	}
 
