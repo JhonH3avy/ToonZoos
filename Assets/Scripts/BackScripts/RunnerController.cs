@@ -14,11 +14,14 @@ public class RunnerController : MonoBehaviour
 	}
 
 	public float speed = 1.0f;
-	public float speedFactor = 1.0f;
 	public float changeTrackSmooth = 1.0f;
 	public float nextPosDistance = 0.2F;
 	public float timeDelay = 0.2f;
 
+	[SerializeField]
+	private float speedFactor = 1.0f;
+	[SerializeField]
+	private float fallingDistance = 1.5f;
 	private CharacterState curState;
 	private CharacterState nextState;
 	private TrackController tracker;
@@ -69,6 +72,11 @@ public class RunnerController : MonoBehaviour
 		nextState = CharacterState.Changing_Track;
 	}
 
+	public void Jump ()
+	{
+		nextState = CharacterState.Jumping;
+	}
+
 	#endregion
 
 	private void StartRunning ()
@@ -89,7 +97,8 @@ public class RunnerController : MonoBehaviour
 			ExecuteState ();
 		}
 
-		transform.position = Vector3.Lerp (transform.position, new Vector3 (nextX, transform.position.y, currZ), speed * Time.deltaTime);
+		// En todo momento se estara realizando una aproximacion al lugar al cual el jugador debe de estar cada 200 millis
+		transform.position = Vector3.Lerp (transform.position, new Vector3 (nextX, transform.position.y, currZ), speedFactor * Time.deltaTime);
 	}
 
 	private void ChangeState ()
@@ -97,20 +106,24 @@ public class RunnerController : MonoBehaviour
 		switch (nextState)
 		{
 		case CharacterState.Falling:
-
+			if (curState == CharacterState.Running)
+				curState = nextState;
 			break;
 
 		case CharacterState.Ready:
-
+			// Cualquier estado puede pasar a Ready
+			// TODO realizar un bloqueo para que cualquier estado pase a Ready
 			break;
 
 		case CharacterState.Running:
-			if (curState == CharacterState.Ready)
+			if (curState == CharacterState.Ready || curState == CharacterState.Jumping
+			    || curState == CharacterState.Falling)
 				curState = nextState;
 			break;
 
 		case CharacterState.Jumping:
-
+			if (curState == CharacterState.Running)
+				curState = nextState;
 			break;
 
 		case CharacterState.Changing_Track:
@@ -125,11 +138,11 @@ public class RunnerController : MonoBehaviour
 		switch (curState)
 		{
 		case CharacterState.Falling:
-
+			// Para pasar al estado de correr, se necesita hacer Click/Touch en el jugador
 			break;
 
 		case CharacterState.Ready:
-
+			// El estado de preparacion no realizara ni permitira al usuario realizar accion alguna
 			break;
 
 		case CharacterState.Running:
@@ -137,7 +150,8 @@ public class RunnerController : MonoBehaviour
 			break;
 
 		case CharacterState.Jumping:
-
+			anim.SetTrigger ("Jump");
+			nextState = CharacterState.Running;
 			break;
 
 		case CharacterState.Changing_Track:
@@ -145,6 +159,22 @@ public class RunnerController : MonoBehaviour
 			currZ = nextZ;
 			nextState = CharacterState.Running;
 			break;
+		}
+	}
+
+	public void Fall ()
+	{
+		anim.SetBool ("Fall", true);
+		nextX = speed * speedFactor * (Time.time + timeDelay) + fallingDistance;
+		nextState = CharacterState.Falling;
+	}
+
+	private void OnMouseUpAsButton ()
+	{// Levantara al jugador cuando se le de click en el
+		if (anim.GetBool ("Fall"))
+		{
+			anim.SetBool ("Fall", false);
+			nextState = CharacterState.Running;
 		}
 	}
 }
