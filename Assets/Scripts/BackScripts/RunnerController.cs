@@ -17,23 +17,11 @@ public class RunnerController : MonoBehaviour
 	public float changeTrackSmooth = 1.0f;
 	public float nextPosDistance = 0.2F;
 	public float timeDelay = 0.2f;
-	public float speedFactor
-	{
-		get
-		{
-			return _speedFactor;
-		}
-
-		private set
-		{
-			_speedFactor = value;
-			StopCoroutine ("RaiseSpeed");
-			StartCoroutine ("RaiseSpeed");
-		}
-	}
 
 	[SerializeField]
-	private float _speedFactor = 1.0f;
+	private float speedFactor = 1.0f;
+	[SerializeField]
+	private float fallingDistance = 1.5f;
 	private CharacterState curState;
 	private CharacterState nextState;
 	private TrackController tracker;
@@ -109,6 +97,7 @@ public class RunnerController : MonoBehaviour
 			ExecuteState ();
 		}
 
+		// En todo momento se estara realizando una aproximacion al lugar al cual el jugador debe de estar cada 200 millis
 		transform.position = Vector3.Lerp (transform.position, new Vector3 (nextX, transform.position.y, currZ), speedFactor * Time.deltaTime);
 	}
 
@@ -117,15 +106,18 @@ public class RunnerController : MonoBehaviour
 		switch (nextState)
 		{
 		case CharacterState.Falling:
-
+			if (curState == CharacterState.Running)
+				curState = nextState;
 			break;
 
 		case CharacterState.Ready:
-
+			// Cualquier estado puede pasar a Ready
+			// TODO realizar un bloqueo para que cualquier estado pase a Ready
 			break;
 
 		case CharacterState.Running:
-			if (curState == CharacterState.Ready || curState == CharacterState.Jumping)
+			if (curState == CharacterState.Ready || curState == CharacterState.Jumping
+			    || curState == CharacterState.Falling)
 				curState = nextState;
 			break;
 
@@ -146,11 +138,11 @@ public class RunnerController : MonoBehaviour
 		switch (curState)
 		{
 		case CharacterState.Falling:
-
+			// Para pasar al estado de correr, se necesita hacer Click/Touch en el jugador
 			break;
 
 		case CharacterState.Ready:
-
+			// El estado de preparacion no realizara ni permitira al usuario realizar accion alguna
 			break;
 
 		case CharacterState.Running:
@@ -170,18 +162,19 @@ public class RunnerController : MonoBehaviour
 		}
 	}
 
-	public void SlowDown (float slowFactor)
+	public void Fall ()
 	{
-		speedFactor = slowFactor;
+		anim.SetBool ("Fall", true);
+		nextX = speed * speedFactor * (Time.time + timeDelay) + fallingDistance;
+		nextState = CharacterState.Falling;
 	}
 
-	private IEnumerator RaiseSpeed ()
-	{
-		while (!(speedFactor >= 1.0f))
+	private void OnMouseUpAsButton ()
+	{// Levantara al jugador cuando se le de click en el
+		if (anim.GetBool ("Fall"))
 		{
-			yield return new WaitForSeconds (0.1f);
-			_speedFactor += 0.01f;
-			_speedFactor = Mathf.Clamp01 (_speedFactor);
+			anim.SetBool ("Fall", false);
+			nextState = CharacterState.Running;
 		}
 	}
 }
