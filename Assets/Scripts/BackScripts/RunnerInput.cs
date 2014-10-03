@@ -30,7 +30,7 @@ public class RunnerInput : MonoBehaviour
 		
 		if (Input.GetButtonDown ("Jump"))
 		{
-			//controller.Jump ();
+			controller.Jump ();
 		}
 		
 		if (Input.GetButtonDown ("Fire1"))

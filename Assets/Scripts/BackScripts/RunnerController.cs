@@ -14,11 +14,26 @@ public class RunnerController : MonoBehaviour
 	}
 
 	public float speed = 1.0f;
-	public float speedFactor = 1.0f;
 	public float changeTrackSmooth = 1.0f;
 	public float nextPosDistance = 0.2F;
 	public float timeDelay = 0.2f;
+	public float speedFactor
+	{
+		get
+		{
+			return _speedFactor;
+		}
 
+		private set
+		{
+			_speedFactor = value;
+			StopCoroutine ("RaiseSpeed");
+			StartCoroutine ("RaiseSpeed");
+		}
+	}
+
+	[SerializeField]
+	private float _speedFactor = 1.0f;
 	private CharacterState curState;
 	private CharacterState nextState;
 	private TrackController tracker;
@@ -69,6 +84,11 @@ public class RunnerController : MonoBehaviour
 		nextState = CharacterState.Changing_Track;
 	}
 
+	public void Jump ()
+	{
+		nextState = CharacterState.Jumping;
+	}
+
 	#endregion
 
 	private void StartRunning ()
@@ -89,7 +109,7 @@ public class RunnerController : MonoBehaviour
 			ExecuteState ();
 		}
 
-		transform.position = Vector3.Lerp (transform.position, new Vector3 (nextX, transform.position.y, currZ), speed * Time.deltaTime);
+		transform.position = Vector3.Lerp (transform.position, new Vector3 (nextX, transform.position.y, currZ), speedFactor * Time.deltaTime);
 	}
 
 	private void ChangeState ()
@@ -105,12 +125,13 @@ public class RunnerController : MonoBehaviour
 			break;
 
 		case CharacterState.Running:
-			if (curState == CharacterState.Ready)
+			if (curState == CharacterState.Ready || curState == CharacterState.Jumping)
 				curState = nextState;
 			break;
 
 		case CharacterState.Jumping:
-
+			if (curState == CharacterState.Running)
+				curState = nextState;
 			break;
 
 		case CharacterState.Changing_Track:
@@ -137,7 +158,8 @@ public class RunnerController : MonoBehaviour
 			break;
 
 		case CharacterState.Jumping:
-
+			anim.SetTrigger ("Jump");
+			nextState = CharacterState.Running;
 			break;
 
 		case CharacterState.Changing_Track:
@@ -145,6 +167,21 @@ public class RunnerController : MonoBehaviour
 			currZ = nextZ;
 			nextState = CharacterState.Running;
 			break;
+		}
+	}
+
+	public void SlowDown (float slowFactor)
+	{
+		speedFactor = slowFactor;
+	}
+
+	private IEnumerator RaiseSpeed ()
+	{
+		while (!(speedFactor >= 1.0f))
+		{
+			yield return new WaitForSeconds (0.1f);
+			_speedFactor += 0.01f;
+			_speedFactor = Mathf.Clamp01 (_speedFactor);
 		}
 	}
 }
