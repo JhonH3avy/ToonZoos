@@ -3,11 +3,8 @@ using System.Collections;
 
 public abstract class ObstacleController : MonoBehaviour
 {
-	private TrackController tracker;
-
 	private void Awake ()
 	{
-		tracker = TrackController.instance;
 	}
 
 	private void Start ()

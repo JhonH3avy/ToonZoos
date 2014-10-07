@@ -39,39 +39,15 @@ public class TrackController : MonoBehaviour {
 
 	public delegate void RaceEventHandler ();
 	
-	public static event RaceEventHandler RaceStarting;
-	
-	protected virtual void OnRaceStarting ()
-	{
-		RaceEventHandler hanlder = RaceStarting;
-		if (hanlder != null)
-		{
-			hanlder.Invoke ();
-		}
-	}
-	
+	public static event RaceEventHandler PreparingRace;
 	public static event RaceEventHandler RaceStarted;
+	//public static event RaceEventHandler FinishingRace;
 	
-	protected virtual void OnRaceStarted ()
+
+	protected void fire(RaceEventHandler handler)
 	{
-		RaceEventHandler hanlder = RaceStarted;
-		
-		if (hanlder != null)
-		{
-			hanlder.Invoke ();
-		}
-	}
-	
-	public static event RaceEventHandler RaceFinishing;
-	
-	protected virtual void OnRaceFinishing ()
-	{
-		RaceEventHandler handler = RaceStarting;
-		
 		if (handler != null)
-		{
 			handler.Invoke ();
-		}
 	}
 
 	#endregion
@@ -98,6 +74,18 @@ public class TrackController : MonoBehaviour {
 	public float GetStartLineX(){
 		return startPos;
 	}
+
+	/**
+	 * Retorna una posición que está en alguna proporción de un carril dado.
+	 * 
+	 * @param lane el número del carril
+	 * @param perc el porcentaje del carril de la posición requerida
+	 * */
+	public Vector3 GetPointOnLane(int lane, float y, float perc){
+		float laneX = trackLength* Mathf.Max(0, Mathf.Min(1,perc));
+		return new Vector3(transform.position.x - laneX, y, GetLaneByIdx (lane));
+	}
+
 
 	/**
 	 * Retorna el numero del carril empezando en cero
@@ -145,14 +133,13 @@ public class TrackController : MonoBehaviour {
 		trackLength = Mathf.Abs(trackLength);
 		startPos = transform.position.x;
 		transform.position += Vector3.right * trackLength;
-		yield return new WaitForSeconds (2.0f);
-		OnRaceStarted ();
-		string lanes = "Lanes at ";
-		for(int i = 0;i< trackCount;i++){
-			float lane = GetLaneByIdx(i);
-			lanes += " "+lane;
-		}
-		print ( lanes );
+
+		print("TrackController started, preparing race");
+
+		fire (PreparingRace);
+		yield return new WaitForSeconds (3.0f);
+		fire (RaceStarted);
+
 	}
 
 	// Update is called once per frame
