@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 8dacdc75b3b1ab04e9cdff65c405c58d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Montana
+    21300002: Montana 1
+    21300004: Montana 1_0
+    21300006: Montana 1_1
+    21300008: Montana 1_2
+    21300010: Montana 1_3
+    21300012: Montana 1_4
+    21300014: Montana 1_5
+    21300016: Montana 1_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Montana 1_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 323
+        width: 180
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Montana 1_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 323
+        width: 354
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Montana 1_2
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 323
+        width: 421
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Montana 1_3
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 323
+        width: 207
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Montana 1_4
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 323
+        width: 282
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Montana 1_5
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 323
+        width: 285
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Montana 1_6
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 323
+        width: 173
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
