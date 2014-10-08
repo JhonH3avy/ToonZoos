@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: f0a26f33f481f254e84fae4e198cb730
+guid: 7bbb3d78f87d8ba40bcf98c6988b63c4
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BotonUsuario2
+    21300000: Conectando0069
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,9 +26,9 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -1
-    wrapMode: 1
+    wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50

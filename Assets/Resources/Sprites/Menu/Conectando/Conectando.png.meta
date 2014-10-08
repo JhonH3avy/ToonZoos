@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: 41dd7a60749922042a8a2d1fc6b1eb36
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Conectando
+    21300002: Conectando_0
+    21300004: Conectando_1
+    21300006: Conectando_2
+    21300008: Conectando_3
+    21300010: Conectando_4
+    21300012: Conectando_5
+    21300014: Conectando_6
+    21300016: Conectando_7
+    21300018: Conectando_8
+    21300020: Conectando_9
+    21300022: Conectando_10
+    21300024: Conectando_11
+    21300026: Conectando_12
+    21300028: Conectando_13
+    21300030: Conectando_14
+    21300032: Conectando_15
+    21300034: Conectando_16
+    21300036: Conectando_17
+    21300038: Conectando_18
+    21300040: Conectando_19
+    21300042: Conectando_20
+    21300044: Conectando_21
+    21300046: Conectando_22
+    21300048: Conectando_23
+    21300050: Conectando_24
+    21300052: Conectando_25
+    21300054: Conectando_26
+    21300056: Conectando_27
+    21300058: Conectando_28
+    21300060: Conectando_29
+    21300062: Conectando_30
+    21300064: Conectando_31
+    21300066: Conectando_32
+    21300068: Conectando_33
+    21300070: Conectando_34
+    21300072: Conectando_35
+    21300074: Conectando_36
+    21300076: Conectando_37
+    21300078: Conectando_38
+    21300080: Conectando_39
+    21300082: Conectando_40
+    21300084: Conectando_41
+    21300086: Conectando_42
+    21300088: Conectando_43
+    21300090: Conectando_44
+    21300092: Conectando_45
+    21300094: Conectando_46
+    21300096: Conectando_47
+    21300098: Conectando_48
+    21300100: Conectando_49
+    21300102: Conectando_50
+    21300104: Conectando_51
+    21300106: Conectando_52
+    21300108: Conectando_53
+    21300110: Conectando_54
+    21300112: Conectando_55
+    21300114: Conectando_56
+    21300116: Conectando_57
+    21300118: Conectando_58
+    21300120: Conectando_59
+    21300122: Conectando_60
+    21300124: Conectando_61
+    21300126: Conectando_62
+    21300128: Conectando_63
+    21300130: Conectando_64
+    21300132: Conectando_65
+    21300134: Conectando_66
+    21300136: Conectando_67
+    21300138: Conectando_68
+    21300140: Conectando_69
+    21300142: Conectando_70
+    21300144: Conectando_71
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: 5
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 4
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Conectando_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1828
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1828
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1828
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1828
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1625
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1625
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1625
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_7
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1625
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1422
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_9
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1422
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_10
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1422
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_11
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1422
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1219
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_13
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1219
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_14
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1219
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_15
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1219
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_16
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1219
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1016
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_18
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1016
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_19
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1016
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_20
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1016
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_21
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1016
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 813
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_23
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 813
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_24
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 813
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_25
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 813
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_26
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 813
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_27
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 813
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_28
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 813
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_29
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 813
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_30
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 813
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_31
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 813
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_33
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 610
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_34
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 610
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_35
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 610
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_36
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 610
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_37
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 610
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_38
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 610
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_39
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 610
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_40
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 610
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_41
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 610
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 407
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_43
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 407
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_44
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 407
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_45
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 407
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_46
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 407
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_47
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 407
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_48
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 407
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_49
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 407
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_50
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 407
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_51
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 407
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_53
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 204
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_54
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 204
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_55
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 204
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_56
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 204
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_57
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 204
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_58
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 204
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_59
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 204
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_60
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 204
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_61
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 204
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_63
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_64
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_65
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_66
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_67
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_68
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_69
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_70
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conectando_71
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1
+        width: 202
+        height: 202
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
