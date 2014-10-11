@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 9b5c93f5a090fb5438f1bab6906e2e60
+guid: 99314232f221cc240a052a4a3dd50a9a
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Montana
+    21300000: Cercas
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,9 +26,9 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -1
-    wrapMode: 1
+    wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
