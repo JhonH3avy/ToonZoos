@@ -16,6 +16,19 @@ TextureImporter:
     21300022: "Ara\xF1aFall_10"
     21300024: "Ara\xF1aFall_11"
     21300026: "Ara\xF1aFall_12"
+    21300028: AraniaFall_0
+    21300030: AraniaFall_1
+    21300032: AraniaFall_2
+    21300034: AraniaFall_3
+    21300036: AraniaFall_4
+    21300038: AraniaFall_5
+    21300040: AraniaFall_6
+    21300042: AraniaFall_7
+    21300044: AraniaFall_8
+    21300046: AraniaFall_9
+    21300048: AraniaFall_10
+    21300050: AraniaFall_11
+    21300052: AraniaFall_12
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -61,7 +74,7 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: "Ara\xF1aFall_0"
+    - name: AraniaFall_0
       rect:
         serializedVersion: 2
         x: 0
@@ -69,9 +82,9 @@ TextureImporter:
         width: 440
         height: 350
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_1"
+    - name: AraniaFall_1
       rect:
         serializedVersion: 2
         x: 440
@@ -81,7 +94,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_2"
+    - name: AraniaFall_2
       rect:
         serializedVersion: 2
         x: 880
@@ -91,7 +104,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_3"
+    - name: AraniaFall_3
       rect:
         serializedVersion: 2
         x: 0
@@ -101,7 +114,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_4"
+    - name: AraniaFall_4
       rect:
         serializedVersion: 2
         x: 440
@@ -111,7 +124,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_5"
+    - name: AraniaFall_5
       rect:
         serializedVersion: 2
         x: 880
@@ -121,7 +134,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_6"
+    - name: AraniaFall_6
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +144,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_7"
+    - name: AraniaFall_7
       rect:
         serializedVersion: 2
         x: 440
@@ -141,7 +154,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_8"
+    - name: AraniaFall_8
       rect:
         serializedVersion: 2
         x: 880
@@ -151,7 +164,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_9"
+    - name: AraniaFall_9
       rect:
         serializedVersion: 2
         x: 0
@@ -161,7 +174,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_10"
+    - name: AraniaFall_10
       rect:
         serializedVersion: 2
         x: 440
@@ -171,7 +184,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_11"
+    - name: AraniaFall_11
       rect:
         serializedVersion: 2
         x: 880
@@ -181,7 +194,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aFall_12"
+    - name: AraniaFall_12
       rect:
         serializedVersion: 2
         x: 0

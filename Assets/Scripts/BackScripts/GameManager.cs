@@ -33,15 +33,19 @@ public class GameManager : MonoBehaviour
 	public int playersCount;
 
 	private List<Player> _players;
+	private Player currPlayer;
 
+	/*
+	 * Funcion que sirve para que es llamada por los items del scrollview de seleccion de personaje
+	 * indicando que un personaje fue elegido y se debe a elejir el persoanje del siguiente jugador
+	 * */
 	public void PlayerSelection (Characters charPlayer)
 	{
-		Player currPlayer = GetNextPlayer ();
-
 		if (currPlayer != null)
 		{
 			currPlayer.character = charPlayer;
-			Debug.Log (string.Format ("Player {0} selected {1}", currPlayer.playerIndex, charPlayer.ToString ()));
+			Debug.Log (string.Format ("Player {0} selected {1}", currPlayer.playerIndex, charPlayer.ToString ()));	
+			currPlayer = GetNextPlayer ();
 		}
 	}
 
@@ -56,36 +60,89 @@ public class GameManager : MonoBehaviour
 			if (player.character == Characters.None)
 				return player;
 		}
-		StartCoroutine (StartGame ());	// SI no hay mas jugadores disponibles se empieza el juego
 
 		return null;
 	}
 
-	private void OnEnable ()
+	public Player GetCurrentPlayer ()
+	{
+		return currPlayer;
+	}
+
+	public int GetRemainingPlayers ()
+	{
+		var i = 0;
+		foreach (var player in _players)
+			if (player.character == Characters.None)
+				i++;
+
+		return i;
+	}
+
+	public void ResetPlayersCharacter ()
+	{
+		foreach (var player in _players)
+		{
+			player.character = Characters.None;
+
+			if (player.playerIndex == 1)
+				currPlayer = player;
+		}
+	}
+
+	private void Awake ()
 	{
 		if (instance != this)
 		{
 			Destroy (gameObject);
 		}
 
-		if (_players == null)
-			_players = new List<Player> ();
+		_players = new List<Player> ();
 
 		// Llenamos la lista de jugadores hasta la cantidad de jugadores que esten en la variable playersCount
 		for (int i = 0; i < playersCount; i++)
 		{
 			_players.Add (new Player (Characters.None, i + 1));
-		}
+		}	
+
+		currPlayer = GetNextPlayer ();
+	}
+
+	private void OnEnable ()
+	{
+		ResetPlayersCharacter ();
 	}
 
 	private void OnDisable ()
 	{
 		_players.Clear ();
+		currPlayer = null;
 	}
 
-	private IEnumerator StartGame ()
+	private void OnLevelWasLoaded (int level)
 	{
-		yield return new WaitForSeconds (2.0f);
-		Application.LoadLevel ("Dos Jugadores");
+		if (level == 1)
+		{
+			CreatePlayers ();
+		}
+	}
+
+	private void CreatePlayers ()
+	{
+		foreach (var player in _players)
+		{
+			var prefab = Resources.Load<GameObject> ("Prefabs/Players/Player" + player.character.ToString());
+			if(prefab != null)
+			{
+				var PlayerIns = (GameObject) Instantiate (prefab);
+				PlayerIns.name = string.Format ("Player {0} {1}", player.playerIndex, player.character);
+				if (player.playerIndex == 1)
+					PlayerIns.AddComponent<RunnerInput> ();
+				else
+					PlayerIns.AddComponent<RunnerInputJugador2> ();
+			}
+			else
+				Debug.LogError ("No se encontro el objeto Player" + player.character.ToString());
+		}
 	}
 }

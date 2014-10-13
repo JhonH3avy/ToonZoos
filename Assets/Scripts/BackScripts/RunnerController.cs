@@ -20,8 +20,6 @@ public class RunnerController : MonoBehaviour
 	public float timeDelay = 0.2f;
 
 	[SerializeField]
-	private float fallDelay = 1.0f;
-	[SerializeField]
 	private float speedFactor = 1.0f;
 	[SerializeField]
 	private float fallingDistance = 1.5f;
@@ -39,7 +37,7 @@ public class RunnerController : MonoBehaviour
 	private Animator anim;
 
 	private Collider _collider;
-	private Rigidbody _rigidbody;
+	private Transform _transform;
 	#endregion
 
 	private void Awake ()
@@ -47,14 +45,14 @@ public class RunnerController : MonoBehaviour
 		anim = GetComponent<Animator> ();
 		tracker = TrackController.instance;
 		_collider = GetComponent<BoxCollider> ();
-		_rigidbody = rigidbody;
+		_transform = transform;
 	}
 
 	private void Start ()
 	{
 		curState = CharacterState.Ready;
-		currZ = tracker.GetAvailableLane ();
-		nextTime = Time.time + timeDelay;
+		nextTime = Time.timeSinceLevelLoad + timeDelay;
+
 	}
 
 	#region Enable and Disable callbacks
@@ -62,6 +60,12 @@ public class RunnerController : MonoBehaviour
 	private void OnEnable ()
 	{
 		TrackController.RaceStarted += StartRunning;
+		TrackController.PreparingRace += () => {
+			currZ = tracker.GetAvailableLane ();
+			nextX = tracker.GetStartLineX ();
+			Debug.Log ("Me ubique");
+
+		};
 	}
 
 	private void OnDisable ()
@@ -103,13 +107,13 @@ public class RunnerController : MonoBehaviour
 	private void StartRunning ()
 	{
 		nextState = CharacterState.Running;
-		nextX = _rigidbody.position.x + speed * speedFactor * (timeDelay);;
+		nextX = _transform.position.x + speed * speedFactor * (timeDelay);
 		anim.SetTrigger ("IsRunning");
 	}
 
 	private void Update ()
 	{
-		if (Time.time >= nextTime)
+		if (Time.timeSinceLevelLoad >= nextTime)
 		{
 			if (nextState != curState)
 			{
@@ -119,7 +123,7 @@ public class RunnerController : MonoBehaviour
 		}
 
 		// En todo momento se estara realizando una aproximacion al lugar al cual el jugador debe de estar cada 200 millis
-		_rigidbody.position = Vector3.Lerp (_rigidbody.position, new Vector3 (nextX, _rigidbody.position.y, currZ), Time.deltaTime);
+		_transform.position = Vector3.Lerp (_transform.position, new Vector3 (nextX, _transform.position.y, currZ), Time.deltaTime);
 		anim.SetFloat ("Speed", speedFactor);
 	}
 
@@ -162,30 +166,30 @@ public class RunnerController : MonoBehaviour
 		switch (curState)
 		{
 		case CharacterState.Falling:
-			nextTime = Time.time + timeDelay;
+			nextTime = Time.timeSinceLevelLoad + timeDelay;
 			// Para pasar al estado de correr, se necesita hacer Click/Touch en el jugador
 			speedFactor = 0.0f;
 			break;
 
 		case CharacterState.Ready:
-			nextTime = Time.time + timeDelay;
+			nextTime = Time.timeSinceLevelLoad + timeDelay;
 			// El estado de preparacion no realizara ni permitira al usuario realizar accion alguna
 			break;
 
 		case CharacterState.Running:
-			nextTime = Time.time + timeDelay;
-			nextX = _rigidbody.position.x + speed * speedFactor * (timeDelay);
+			nextTime = Time.timeSinceLevelLoad + timeDelay;
+			nextX = _transform.position.x + speed * speedFactor * (timeDelay);
 			break;
 
 		case CharacterState.Jumping:
-			nextTime = Time.time + timeDelay;
+			nextTime = Time.timeSinceLevelLoad + timeDelay;
 			anim.SetTrigger ("Jump");
 			nextState = CharacterState.Running;
 			break;
 
 		case CharacterState.Changing_Track:
-			nextTime = Time.time + timeDelay;
-			nextX = _rigidbody.position.x + speed * speedFactor * (timeDelay);
+			nextTime = Time.timeSinceLevelLoad + timeDelay;
+			nextX = _transform.position.x + speed * speedFactor * (timeDelay);
 			currZ = nextZ;
 			nextState = CharacterState.Running;
 			break;
@@ -201,7 +205,7 @@ public class RunnerController : MonoBehaviour
 	  * */
 	public void Fall ()
 	{
-		nextX = _rigidbody.position.x + speed * speedFactor * (timeDelay) + fallingDistance;
+		nextX = _transform.position.x + speed * speedFactor * (timeDelay) + fallingDistance;
 		anim.SetBool ("Fall", true);
 		StopCoroutine ("RaiseSpeed");
 		nextState = CharacterState.Falling;
@@ -253,7 +257,7 @@ public class RunnerController : MonoBehaviour
 	 * */
 	private bool CheckNextTrack (float newZ, Vector3 direction)
 	{
-		var distance = Mathf.Abs (newZ - _rigidbody.position.z);
+		var distance = Mathf.Abs (newZ - _transform.position.z);
 		RaycastHit hit;
 
 		// El rayo saldra del centro del sprite para saber
@@ -274,7 +278,7 @@ public class RunnerController : MonoBehaviour
 	{
 		if (other.transform.tag == "Player")
 		{
-			if ((other.rigidbody.position - _rigidbody.position).x > 0)
+			if ((other.rigidbody.position - _transform.position).x > 0)
 			{
 				SlowDown (0.5f);
 			}

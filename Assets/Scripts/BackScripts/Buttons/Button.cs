@@ -9,7 +9,7 @@ namespace Menu.Button
 	{
 		public event ButtonDelegate Click;
 
-		private void OnMouseDown ()
+		private void OnMouseUpAsButton ()
 		{
 			OnClick ();
 		}
