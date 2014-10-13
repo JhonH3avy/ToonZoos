@@ -1,47 +1,31 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//FIXME deberia llamarse RunnerKeyboardOneInput
 [RequireComponent (typeof (RunnerController))]
-public class RunnerInput : MonoBehaviour
+public class RunnerInput : AbstractRunnerInput
 {
-	private TrackController tracker;
-	private RunnerController controller;
-
-	private void Awake ()
-	{
-		controller = GetComponent<RunnerController> ();
-	}
-
 	private void FixedUpdate ()
 	{
-
 		if (Input.GetButtonDown ("Vertical"))
 		{
 			if (Input.GetAxisRaw ("Vertical") == 1f)
-			{
-				controller.TrackUp ();
-			}
+				LaneUp ();
 			
 			if (Input.GetAxisRaw ("Vertical") == -1f)
-			{
-				controller.TrackDown ();
-			}
+				LaneDown ();
 		}
 		
 		if (Input.GetButtonDown ("Jump"))
-		{
-			controller.Jump ();
-		}
-		
+			Jump ();
+
 		if (Input.GetButtonDown ("Ability"))
-		{
-			//controller.Ability ();
-		}
+			Fire();
 	}
 
 	private void OnMouseUpAsButton ()
 	{	
 		// El metodo GetUp solo reacionara cuando el personaje se encuentre en el estado Falling
-		controller.GetUp ();
+		GetUp ();
 	}
 }
