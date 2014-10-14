@@ -6,13 +6,14 @@ using System.Collections;
  * */
 public class HastenerController: PowerController {
 	
-	public float maxSpeed = 8f;
+	public float maxSpeed = 2f;
 	/**	
 	 * Lanza la bola de poder con tiro parabólico
 	 * */
 	protected override IEnumerator Empowering(){
 		if(owner!=null){
-			owner.SlowDown(2);
+			Debug.Log("Increasing speed");
+			owner.SlowDown(maxSpeed);
 		}
 		yield return null;
 	}
