@@ -24,6 +24,9 @@ public abstract class PowerController : MonoBehaviour {
 			Debug.Log ("Power became invisible.. destroy it");
 			DestroyObject(gameObject);
 		}
+		else if(transform.position.y < 0){
+			DestroyObject(gameObject);
+		}
 	}
 	
 	void OnTriggerEnter(Collider other) { 
