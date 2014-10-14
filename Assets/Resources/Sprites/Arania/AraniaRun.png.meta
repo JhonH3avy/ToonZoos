@@ -24,6 +24,27 @@ TextureImporter:
     21300038: "Ara\xF1aRun_18"
     21300040: "Ara\xF1aRun_19"
     21300042: "Ara\xF1aRun_20"
+    21300044: AraniaRun_0
+    21300046: AraniaRun_1
+    21300048: AraniaRun_2
+    21300050: AraniaRun_3
+    21300052: AraniaRun_4
+    21300054: AraniaRun_5
+    21300056: AraniaRun_6
+    21300058: AraniaRun_7
+    21300060: AraniaRun_8
+    21300062: AraniaRun_9
+    21300064: AraniaRun_10
+    21300066: AraniaRun_11
+    21300068: AraniaRun_12
+    21300070: AraniaRun_13
+    21300072: AraniaRun_14
+    21300074: AraniaRun_15
+    21300076: AraniaRun_16
+    21300078: AraniaRun_17
+    21300080: AraniaRun_18
+    21300082: AraniaRun_19
+    21300084: AraniaRun_20
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -69,7 +90,7 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: "Ara\xF1aRun_0"
+    - name: AraniaRun_0
       rect:
         serializedVersion: 2
         x: 0
@@ -79,7 +100,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_1"
+    - name: AraniaRun_1
       rect:
         serializedVersion: 2
         x: 440
@@ -89,7 +110,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_2"
+    - name: AraniaRun_2
       rect:
         serializedVersion: 2
         x: 880
@@ -99,7 +120,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_3"
+    - name: AraniaRun_3
       rect:
         serializedVersion: 2
         x: 0
@@ -109,7 +130,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_4"
+    - name: AraniaRun_4
       rect:
         serializedVersion: 2
         x: 440
@@ -119,7 +140,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_5"
+    - name: AraniaRun_5
       rect:
         serializedVersion: 2
         x: 880
@@ -129,7 +150,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_6"
+    - name: AraniaRun_6
       rect:
         serializedVersion: 2
         x: 0
@@ -139,7 +160,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_7"
+    - name: AraniaRun_7
       rect:
         serializedVersion: 2
         x: 440
@@ -149,7 +170,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_8"
+    - name: AraniaRun_8
       rect:
         serializedVersion: 2
         x: 880
@@ -159,7 +180,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_9"
+    - name: AraniaRun_9
       rect:
         serializedVersion: 2
         x: 0
@@ -169,7 +190,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_10"
+    - name: AraniaRun_10
       rect:
         serializedVersion: 2
         x: 440
@@ -179,7 +200,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_11"
+    - name: AraniaRun_11
       rect:
         serializedVersion: 2
         x: 880
@@ -189,7 +210,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_12"
+    - name: AraniaRun_12
       rect:
         serializedVersion: 2
         x: 0
@@ -199,7 +220,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_13"
+    - name: AraniaRun_13
       rect:
         serializedVersion: 2
         x: 440
@@ -209,7 +230,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_14"
+    - name: AraniaRun_14
       rect:
         serializedVersion: 2
         x: 880
@@ -219,7 +240,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_15"
+    - name: AraniaRun_15
       rect:
         serializedVersion: 2
         x: 0
@@ -229,7 +250,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_16"
+    - name: AraniaRun_16
       rect:
         serializedVersion: 2
         x: 440
@@ -239,7 +260,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_17"
+    - name: AraniaRun_17
       rect:
         serializedVersion: 2
         x: 880
@@ -249,7 +270,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_18"
+    - name: AraniaRun_18
       rect:
         serializedVersion: 2
         x: 0
@@ -259,7 +280,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_19"
+    - name: AraniaRun_19
       rect:
         serializedVersion: 2
         x: 440
@@ -269,7 +290,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aRun_20"
+    - name: AraniaRun_20
       rect:
         serializedVersion: 2
         x: 880

@@ -8,15 +8,23 @@ public class CameraMovement : MonoBehaviour {
 	private Vector3 offset;
 
 	// Use this for initialization
-	void Start () {
-		//POsicionar la camara en la posición de partida?
+	private void Start () {
+		// POsicionar la camara en la posición de partida?
 		// transform.position += Vector3.right * (transform.position.x - TrackController.instance.GetStartLineX());
-		follow = GameObject.FindGameObjectWithTag("Player"); 
-		offset = transform.position - follow.transform.position;
+		var target = GameObject.FindGameObjectWithTag("Player");
+		if (target != null)
+		{
+			follow = target;
+			offset = transform.position - follow.transform.position;
+		}
+		else
+		{
+			Debug.LogError ("There is no target player to follow");
+		}
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	private void Update () {
 		//Detenerse al final de la pista
 		if(transform.position.x < TrackController.instance.GetFinishLineX()){
 			Vector3 newPosition = new Vector3 (follow.transform.position.x + offset.x, transform.position.y, transform.position.z);

@@ -15,7 +15,7 @@ public abstract class ObstacleController : MonoBehaviour
 
 	private void OnTriggerEnter (Collider c)
 	{
-		if(c.transform.tag == "Player")
+		if(c.transform.tag.Contains("Player"))
 		{
 			ObstacleEffect (c.gameObject);
 		}

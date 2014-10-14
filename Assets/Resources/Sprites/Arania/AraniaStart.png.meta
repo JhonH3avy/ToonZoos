@@ -28,6 +28,31 @@ TextureImporter:
     21300046: "Ara\xF1aStart_22"
     21300048: "Ara\xF1aStart_23"
     21300050: "Ara\xF1aStart_24"
+    21300052: AraniaStart_0
+    21300054: AraniaStart_1
+    21300056: AraniaStart_2
+    21300058: AraniaStart_3
+    21300060: AraniaStart_4
+    21300062: AraniaStart_5
+    21300064: AraniaStart_6
+    21300066: AraniaStart_7
+    21300068: AraniaStart_8
+    21300070: AraniaStart_9
+    21300072: AraniaStart_10
+    21300074: AraniaStart_11
+    21300076: AraniaStart_12
+    21300078: AraniaStart_13
+    21300080: AraniaStart_14
+    21300082: AraniaStart_15
+    21300084: AraniaStart_16
+    21300086: AraniaStart_17
+    21300088: AraniaStart_18
+    21300090: AraniaStart_19
+    21300092: AraniaStart_20
+    21300094: AraniaStart_21
+    21300096: AraniaStart_22
+    21300098: AraniaStart_23
+    21300100: AraniaStart_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -73,7 +98,7 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: "Ara\xF1aStart_0"
+    - name: AraniaStart_0
       rect:
         serializedVersion: 2
         x: 0
@@ -83,7 +108,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_1"
+    - name: AraniaStart_1
       rect:
         serializedVersion: 2
         x: 440
@@ -93,7 +118,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_2"
+    - name: AraniaStart_2
       rect:
         serializedVersion: 2
         x: 880
@@ -103,7 +128,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_3"
+    - name: AraniaStart_3
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +138,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_4"
+    - name: AraniaStart_4
       rect:
         serializedVersion: 2
         x: 440
@@ -123,7 +148,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_5"
+    - name: AraniaStart_5
       rect:
         serializedVersion: 2
         x: 880
@@ -133,7 +158,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_6"
+    - name: AraniaStart_6
       rect:
         serializedVersion: 2
         x: 0
@@ -143,7 +168,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_7"
+    - name: AraniaStart_7
       rect:
         serializedVersion: 2
         x: 440
@@ -153,7 +178,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_8"
+    - name: AraniaStart_8
       rect:
         serializedVersion: 2
         x: 880
@@ -163,7 +188,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_9"
+    - name: AraniaStart_9
       rect:
         serializedVersion: 2
         x: 0
@@ -173,7 +198,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_10"
+    - name: AraniaStart_10
       rect:
         serializedVersion: 2
         x: 440
@@ -183,7 +208,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_11"
+    - name: AraniaStart_11
       rect:
         serializedVersion: 2
         x: 880
@@ -193,7 +218,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_12"
+    - name: AraniaStart_12
       rect:
         serializedVersion: 2
         x: 0
@@ -203,7 +228,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_13"
+    - name: AraniaStart_13
       rect:
         serializedVersion: 2
         x: 440
@@ -213,7 +238,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_14"
+    - name: AraniaStart_14
       rect:
         serializedVersion: 2
         x: 880
@@ -223,7 +248,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_15"
+    - name: AraniaStart_15
       rect:
         serializedVersion: 2
         x: 0
@@ -233,7 +258,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_16"
+    - name: AraniaStart_16
       rect:
         serializedVersion: 2
         x: 440
@@ -243,7 +268,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_17"
+    - name: AraniaStart_17
       rect:
         serializedVersion: 2
         x: 880
@@ -253,7 +278,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_18"
+    - name: AraniaStart_18
       rect:
         serializedVersion: 2
         x: 0
@@ -263,7 +288,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_19"
+    - name: AraniaStart_19
       rect:
         serializedVersion: 2
         x: 440
@@ -273,7 +298,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_20"
+    - name: AraniaStart_20
       rect:
         serializedVersion: 2
         x: 880
@@ -283,7 +308,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_21"
+    - name: AraniaStart_21
       rect:
         serializedVersion: 2
         x: 0
@@ -293,7 +318,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_22"
+    - name: AraniaStart_22
       rect:
         serializedVersion: 2
         x: 440
@@ -303,7 +328,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_23"
+    - name: AraniaStart_23
       rect:
         serializedVersion: 2
         x: 880
@@ -313,7 +338,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Ara\xF1aStart_24"
+    - name: AraniaStart_24
       rect:
         serializedVersion: 2
         x: 0

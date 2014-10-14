@@ -38,10 +38,12 @@ public class TrackController : MonoBehaviour {
 	#region Events and EventsHanlder
 
 	public delegate void RaceEventHandler ();
-	
+	public delegate void RaceFinishtHandler (FinishingRaceArgs args);
+
 	public static event RaceEventHandler PreparingRace;
 	public static event RaceEventHandler RaceStarted;
-	//public static event RaceEventHandler FinishingRace;
+	public static event RaceFinishtHandler FinishingRace;
+	private bool isFinished = true;
 	
 
 	protected void fire(RaceEventHandler handler)
@@ -136,6 +138,7 @@ public class TrackController : MonoBehaviour {
 
 		print("TrackController started, preparing race");
 
+		isFinished = false;
 		fire (PreparingRace);
 		yield return new WaitForSeconds (3.0f);
 		fire (RaceStarted);
@@ -152,4 +155,24 @@ public class TrackController : MonoBehaviour {
 
 		}
 	}
+
+	private void OnTriggerEnter (Collider c)
+	{
+		if(c.transform.tag.Contains("Player") && !isFinished)
+		{
+			Debug.Log(" We have a winner:" +c.gameObject);
+			if(FinishingRace != null)
+				FinishingRace(new FinishingRaceArgs(c.gameObject));
+			isFinished = true;
+		}
+	}
+}
+
+public class FinishingRaceArgs : System.EventArgs
+{
+	public FinishingRaceArgs(GameObject winner)
+	{
+		this.Winner = winner;
+	}
+	public GameObject Winner{get;private set;}
 }
