@@ -276,7 +276,7 @@ public class RunnerController : MonoBehaviour
 	 * */
 	private void OnTriggerEnter (Collider other)
 	{
-		if (other.transform.tag == "Player")
+		if (other.transform.tag.Contains("Player"))
 		{
 			if ((other.rigidbody.position - _transform.position).x > 0)
 			{
