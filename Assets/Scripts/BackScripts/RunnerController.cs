@@ -81,7 +81,7 @@ public class RunnerController : MonoBehaviour
 	public void TrackUp ()
 	{
 		var newZ = tracker.GetLaneAbove (currZ);
-		if (CheckNextTrack (newZ, transform.forward))
+		if (CheckNextTrack (newZ, Vector3.forward))
 		{
 			nextZ = newZ;
 			nextState = CharacterState.Changing_Track;
@@ -91,7 +91,7 @@ public class RunnerController : MonoBehaviour
 	public void TrackDown ()
 	{
 		var newZ = tracker.GetLaneBelow (currZ);
-		if (CheckNextTrack (newZ, -transform.forward))
+		if (CheckNextTrack (newZ, -Vector3.forward))
 		{
 			nextZ = newZ;
 			nextState = CharacterState.Changing_Track;
