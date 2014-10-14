@@ -16,16 +16,12 @@ public class RunnerInput : AbstractRunnerInput
 				LaneDown ();
 		}
 		
-		if (Input.GetButtonDown ("Jump"))
+		if (Input.GetButtonDown ("Jump")){
 			Jump ();
+		}
 
 		if (Input.GetButtonDown ("Ability"))
 			Fire();
 	}
-
-	private void OnMouseUpAsButton ()
-	{	
-		// El metodo GetUp solo reacionara cuando el personaje se encuentre en el estado Falling
-		GetUp ();
-	}
+	
 }

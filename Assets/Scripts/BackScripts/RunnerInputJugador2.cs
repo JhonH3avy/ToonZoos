@@ -22,10 +22,5 @@ public class RunnerInputJugador2 : AbstractRunnerInput
 		if (Input.GetButtonDown ("Ability2"))
 			Fire();
 	}
-	
-	private void OnMouseUpAsButton ()
-	{	
-		// El metodo GetUp solo reacionara cuando el personaje se encuentre en el estado Falling
-		GetUp ();
-	}
+
 }

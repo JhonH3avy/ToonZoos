@@ -37,7 +37,10 @@ public class AbstractRunnerInput : MonoBehaviour
 	}
 
 	protected void Jump(){
-		controller.Jump();
+		if(controller.curState == RunnerController.CharacterState.Falling)
+			controller.GetUp();
+		else
+			controller.Jump();
 	}
 
 	protected void GetUp(){

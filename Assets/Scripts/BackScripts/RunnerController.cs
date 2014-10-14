@@ -24,7 +24,8 @@ public class RunnerController : MonoBehaviour
 	[SerializeField]
 	private float fallingDistance = 1.5f;
 	[SerializeField]
-	private CharacterState curState;
+	public CharacterState curState{ get; private set;}
+
 	private CharacterState nextState;
 
 	private TrackController tracker;
