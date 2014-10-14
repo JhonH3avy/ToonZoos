@@ -36,7 +36,7 @@ public class PowerFactory : MonoBehaviour {
 				pw = (PowerController)Instantiate(PowerType);
 
 			pw.Owner = owner;
-			//allow = false;
+			allow = false;
 			launchTime = float.MaxValue;
 		}
 	}
