@@ -41,7 +41,8 @@ public class ObstacleFactory : MonoBehaviour {
 			for(int l= 0; l < tc.trackCount; l++ ){
 				for(int i= 0; i < limitPerLane; i++ ){
 					Transform obstacle = obstacleType[(int)(Random.Range(0,obstacleType.Length-.001f))];
-					Instantiate( obstacle, tc.GetPointOnLane( l, obstacle.transform.position.y, Random.value ), Quaternion.identity );
+					Transform newObst = (Transform)Instantiate( obstacle );
+					newObst.transform.position = tc.GetPointOnLane( l, obstacle.transform.position.y, Random.value );
 				}
 			}
 		}
