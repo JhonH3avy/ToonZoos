@@ -6,7 +6,7 @@ using System.Collections;
  * */
 public class HastenerController: PowerController {
 	
-	public float maxSpeed = 2f;
+	public float maxSpeed = 1.5f;
 	/**	
 	 * Lanza la bola de poder con tiro parabólico
 	 * */
