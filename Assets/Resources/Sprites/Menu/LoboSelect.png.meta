@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 26883bac61e52f344a3253269c9fdd5b
+guid: 5c0971e3c7fca7a40b3a47f8e42614fe
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Cielo 1
+    21300000: LoboSelect
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -18,11 +18,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: .25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: 5
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
@@ -35,11 +35,11 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 6
+  alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
