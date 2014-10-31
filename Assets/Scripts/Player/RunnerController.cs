@@ -23,9 +23,9 @@ public class RunnerController : MonoBehaviour
 	private float speedFactor = 1.0f;
 	[SerializeField]
 	private float fallingDistance = 1.5f;
-	[SerializeField]
+	
 	public CharacterState curState{ get; private set;}
-
+	
 	private CharacterState nextState;
 
 	private TrackController tracker;
@@ -64,8 +64,6 @@ public class RunnerController : MonoBehaviour
 		TrackController.PreparingRace += () => {
 			currZ = tracker.GetAvailableLane ();
 			nextX = tracker.GetStartLineX ();
-			Debug.Log ("Me ubique");
-
 		};
 	}
 
@@ -146,7 +144,7 @@ public class RunnerController : MonoBehaviour
 
 		case CharacterState.Running:
 			if (curState == CharacterState.Ready || curState == CharacterState.Jumping
-			    || curState == CharacterState.Falling)
+			    || curState == CharacterState.Falling || curState == CharacterState.Changing_Track)
 				curState = nextState;
 			break;
 
@@ -160,6 +158,7 @@ public class RunnerController : MonoBehaviour
 				curState = nextState;
 			break;
 		}
+		Debug.Log ("curState: " + curState);
 	}
 
 	private void ExecuteState ()
@@ -261,7 +260,7 @@ public class RunnerController : MonoBehaviour
 		var distance = Mathf.Abs (newZ - _transform.position.z);
 		RaycastHit hit;
 
-		// El rayo saldra del centro del sprite para saber
+		// El rayo saldra del centro del sprite para saber si hay un jugador
 		if (Physics.Raycast (_collider.bounds.center, direction, out hit, distance))
 		{
 			// Si el rayo golpea a un jugador no podra pasar al siguiente carril

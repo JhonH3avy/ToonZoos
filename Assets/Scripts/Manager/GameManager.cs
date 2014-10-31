@@ -137,9 +137,9 @@ public class GameManager : MonoBehaviour
 				var PlayerIns = (GameObject) Instantiate (prefab);
 				PlayerIns.name = string.Format ("Player {0} {1}", player.playerIndex, player.character);
 				if (player.playerIndex == 1)
-					PlayerIns.AddComponent<RunnerInput> ();
+					PlayerIns.AddComponent<RunnerKeyboardOneInput> ();
 				else
-					PlayerIns.AddComponent<RunnerInputJugador2> ();
+					PlayerIns.AddComponent<RunnerKeyboardTwoInput> ();
 			}
 			else
 				Debug.LogError ("No se encontro el objeto Player" + player.character.ToString());

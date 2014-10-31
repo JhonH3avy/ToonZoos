@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-//FIXME deberia llamarse RunnerKeyboardOneInput
 [RequireComponent (typeof (RunnerController))]
-public class RunnerInput : AbstractRunnerInput
+public class RunnerKeyboardOneInput : AbstractRunnerInput
 {
 	private void FixedUpdate ()
 	{
