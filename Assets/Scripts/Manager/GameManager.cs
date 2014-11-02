@@ -36,8 +36,13 @@ public class GameManager : MonoBehaviour
 	private Player currPlayer;
 
 	/*
+	 * <summary>
 	 * Funcion que sirve para que es llamada por los items del scrollview de seleccion de personaje
 	 * indicando que un personaje fue elegido y se debe a elejir el persoanje del siguiente jugador
+	 * </summary>
+	 * <params name = "charPlayer">
+	 * Enum Character que ha sido elejigo por el jugador
+	 * </params>
 	 * */
 	public void PlayerSelection (Characters charPlayer)
 	{

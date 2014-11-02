@@ -15,7 +15,7 @@ public class TitleText : MonoBehaviour
 	{
 		var player = GameManager.instance.GetCurrentPlayer ();
 		var lastPlayer = player;
-		label.text = "Jugador " + player.playerIndex.ToString ();
+		label.text = " Elije al Jugador " + player.playerIndex.ToString ();
 
 		while (true)
 		{
@@ -24,7 +24,9 @@ public class TitleText : MonoBehaviour
 			if (player != lastPlayer)
 			{
 				if (player != null)
-					label.text = "Jugador " + player.playerIndex.ToString ();
+					label.text = "Elije al Jugador " + player.playerIndex.ToString ();
+				else
+					label.text = "Empezando partida";
 
 				lastPlayer = player;
 			}

@@ -134,7 +134,7 @@ public class RunnerController : MonoBehaviour
 		{
 		case CharacterState.Falling:
 			if (curState == CharacterState.Running || curState == CharacterState.Changing_Track
-			    || curState == CharacterState.Falling)
+			    || curState == CharacterState.Jumping)
 				curState = nextState;
 			break;
 
