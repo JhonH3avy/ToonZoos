@@ -16,5 +16,8 @@ public class ObstacleStone : ObstacleController
 		}
 	}
 
+	protected override void Destroy (){
+	}
+
 	#endregion
 }

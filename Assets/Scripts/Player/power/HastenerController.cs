@@ -24,6 +24,9 @@ public class HastenerController: PowerController {
 	protected override void Strike(RunnerController runner){
 
 	}
+
+	protected override void Stumble(ObstacleController obstacle){
+	}
 }
 
 

@@ -50,6 +50,11 @@ public abstract class PowerController : MonoBehaviour {
 	protected abstract IEnumerator Empowering();
 
 	/**
+	 * Usado cuando el poder se topa con un obstáculo
+	 * */
+	protected abstract void Stumble(ObstacleController obstacle);
+
+	/**
 	 * Usado cuando el poder alcanza a otro jugador
 	 * */
 	protected abstract void Strike(RunnerController runner);

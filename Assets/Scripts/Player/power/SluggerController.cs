@@ -24,4 +24,7 @@ public class SluggerController : PowerController {
 		Debug.Log("Slugger Touched another" );
 		runner.SlowDown(-1);
 	}
+
+	protected override void Stumble(ObstacleController obstacle){
+	}
 }

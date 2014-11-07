@@ -26,4 +26,9 @@ public abstract class ObstacleController : MonoBehaviour
 	 * que tendra sobre el jugador
 	 * */
 	protected abstract void ObstacleEffect (GameObject player);
+
+	/*
+	 * Destruye el obstáculo, probablemente con una animación
+	 * */
+	protected abstract void Destroy ();
 }
