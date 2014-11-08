@@ -13,7 +13,7 @@ public abstract class ObstacleController : MonoBehaviour
 		//transform.position.Set (transform.position.x, transform.position.y, tracker.GetLaneByIdx (Random.Range(0,4)));
 	}
 
-	private void OnTriggerEnter (Collider c)
+	private void OnTriggerStay (Collider c)
 	{
 		if(c.transform.tag.Contains("Player"))
 		{

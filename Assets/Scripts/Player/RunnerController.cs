@@ -23,8 +23,19 @@ public class RunnerController : MonoBehaviour
 	private float speedFactor = 1.0f;
 	[SerializeField]
 	private float fallingDistance = 1.5f;
-	
-	public CharacterState curState{ get; private set;}
+	[SerializeField]
+	private CharacterState _curState;
+	public CharacterState curState
+	{ 
+		get
+		{
+			return _curState;
+		} 
+		private set
+		{
+			_curState = value;
+		}
+	}
 	
 	private CharacterState nextState;
 

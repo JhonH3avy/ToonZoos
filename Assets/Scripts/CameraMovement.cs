@@ -3,6 +3,7 @@ using System.Collections;
 
 public class CameraMovement : MonoBehaviour {
 
+	[SerializeField]
 	private GameObject follow; 
 	public float smoothing = 5f;
 	private Vector3 offset;
