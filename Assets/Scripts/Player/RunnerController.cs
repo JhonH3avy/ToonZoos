@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-[RequireComponent (typeof (Animator), typeof (Renderer), typeof (BoxCollider))]
+[RequireComponent ( typeof ( BoxCollider ), typeof ( Rigidbody ) )]
 public class RunnerController : MonoBehaviour
 {
 	public enum CharacterState
@@ -46,16 +46,15 @@ public class RunnerController : MonoBehaviour
 	private float nextZ;
 	private float nextTime;
 	
-	private Animator anim;
-
+	private Animator _animator;
 	private Collider _collider;
 	private Transform _transform;
 	#endregion
 
 	private void Awake ()
 	{
-		anim = GetComponent<Animator> ();
 		tracker = TrackController.instance;
+		_animator = GetComponentInChildren<Animator> ();
 		_collider = GetComponent<BoxCollider> ();
 		_transform = transform;
 	}
@@ -118,7 +117,7 @@ public class RunnerController : MonoBehaviour
 	{
 		nextState = CharacterState.Running;
 		nextX = _transform.position.x + speed * speedFactor * (timeDelay);
-		anim.SetTrigger ("IsRunning");
+		_animator.SetTrigger ("IsRunning");
 	}
 
 	private void Update ()
@@ -134,7 +133,7 @@ public class RunnerController : MonoBehaviour
 
 		// En todo momento se estara realizando una aproximacion al lugar al cual el jugador debe de estar cada 200 millis
 		_transform.position = Vector3.Lerp (_transform.position, new Vector3 (nextX, _transform.position.y, currZ), Time.deltaTime);
-		anim.SetFloat ("Speed", speedFactor);
+		_animator.SetFloat ("Speed", speedFactor);
 	}
 
 	#region States implementation
@@ -195,7 +194,7 @@ public class RunnerController : MonoBehaviour
 
 		case CharacterState.Jumping:
 			nextTime = Time.timeSinceLevelLoad + timeDelay;
-			anim.SetTrigger ("Jump");
+			_animator.SetTrigger ("Jump");
 			nextState = CharacterState.Running;
 			break;
 
@@ -218,7 +217,7 @@ public class RunnerController : MonoBehaviour
 	public void Fall ()
 	{
 		nextX = _transform.position.x + speed * speedFactor * (timeDelay) + fallingDistance;
-		anim.SetBool ("Fall", true);
+		_animator.SetBool ("Fall", true);
 		StopCoroutine ("RaiseSpeed");
 		nextState = CharacterState.Falling;
 	}
@@ -229,9 +228,9 @@ public class RunnerController : MonoBehaviour
 	public void GetUp ()
 	{
 		// Levantara al jugador cuando se le de click en el
-		if (anim.GetBool ("Fall"))
+		if (_animator.GetBool ("Fall"))
 		{
-			anim.SetBool ("Fall", false);
+			_animator.SetBool ("Fall", false);
 			nextState = CharacterState.Running;
 			StartCoroutine ("RaiseSpeed");
 		}

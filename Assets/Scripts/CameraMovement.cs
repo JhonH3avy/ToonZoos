@@ -3,10 +3,9 @@ using System.Collections;
 
 public class CameraMovement : MonoBehaviour {
 
-	[SerializeField]
-	private GameObject follow; 
-	public float smoothing = 5f;
-	private Vector3 offset;
+	[SerializeField] private GameObject follow; 
+	[SerializeField] private float smoothing = 5f;
+	[SerializeField] private Vector3 offset = new Vector3( 5, 0, 0 );
 
 	// Use this for initialization
 	private void Start () {
@@ -16,7 +15,6 @@ public class CameraMovement : MonoBehaviour {
 		if (target != null)
 		{
 			follow = target;
-			offset = transform.position - follow.transform.position;
 		}
 		else
 		{

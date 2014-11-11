@@ -7,7 +7,7 @@ public class ObstacleStone : ObstacleController
 
 	protected override void ObstacleEffect (GameObject player)
 	{
-		AnimatorStateInfo playerAnimInfo = player.GetComponent<Animator> ().GetCurrentAnimatorStateInfo (0);
+		AnimatorStateInfo playerAnimInfo = player.GetComponentInChildren<Animator> ().GetCurrentAnimatorStateInfo (0);
 
 		if (!playerAnimInfo.IsName ("Base.Jump")
 		    && (playerAnimInfo.normalizedTime + float.Epsilon + Time.deltaTime) > 0.8f)
