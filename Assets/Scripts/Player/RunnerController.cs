@@ -51,6 +51,7 @@ public class RunnerController : MonoBehaviour
 	private Transform _transform;
 	#endregion
 
+	#region Unity API callbacks
 	private void Awake ()
 	{
 		tracker = TrackController.instance;
@@ -64,6 +65,22 @@ public class RunnerController : MonoBehaviour
 		curState = CharacterState.Ready;
 		nextTime = Time.timeSinceLevelLoad + timeDelay;
 
+	}
+
+	private void Update ()
+	{
+		if ( Time.timeSinceLevelLoad >= nextTime )
+		{
+			if ( nextState != curState )
+			{
+				ChangeState ();
+			}
+			ExecuteState ();
+		}
+
+		// En todo momento se estara realizando una aproximacion al lugar al cual el jugador debe de estar cada 200 millis
+		_transform.position = Vector3.Lerp ( _transform.position, new Vector3 ( nextX, _transform.position.y, currZ ), Time.deltaTime );
+		_animator.SetFloat ( "Speed", speedFactor );
 	}
 
 	#region Enable and Disable callbacks
@@ -83,9 +100,9 @@ public class RunnerController : MonoBehaviour
 	}
 
     #endregion
+	#endregion
 
 	#region Commands
-
 	public void TrackUp ()
 	{
 		var newZ = tracker.GetLaneAbove (currZ);
@@ -93,6 +110,7 @@ public class RunnerController : MonoBehaviour
 		{
 			nextZ = newZ;
 			nextState = CharacterState.Changing_Track;
+			StartCoroutine ( "ChangingTrack" );
 		}
 	}
 
@@ -103,16 +121,19 @@ public class RunnerController : MonoBehaviour
 		{
 			nextZ = newZ;
 			nextState = CharacterState.Changing_Track;
+			StartCoroutine ( "ChangingTrack" );
 		}
 	}
 
 	public void Jump ()
 	{
 		nextState = CharacterState.Jumping;
+		_animator.SetTrigger ( "Jump" );
+		StartCoroutine ( "Jumping" );
 	}
-
 	#endregion
 
+	#region HelperMethods
 	private void StartRunning ()
 	{
 		nextState = CharacterState.Running;
@@ -120,24 +141,20 @@ public class RunnerController : MonoBehaviour
 		_animator.SetTrigger ("IsRunning");
 	}
 
-	private void Update ()
+	private IEnumerator Jumping ()
 	{
-		if (Time.timeSinceLevelLoad >= nextTime)
-		{
-			if (nextState != curState)
-			{
-				ChangeState ();
-			}
-			ExecuteState ();
-		}
-
-		// En todo momento se estara realizando una aproximacion al lugar al cual el jugador debe de estar cada 200 millis
-		_transform.position = Vector3.Lerp (_transform.position, new Vector3 (nextX, _transform.position.y, currZ), Time.deltaTime);
-		_animator.SetFloat ("Speed", speedFactor);
+		yield return new WaitForSeconds ( 1.5f );
+		nextState = CharacterState.Running;
 	}
 
-	#region States implementation
+	private IEnumerator ChangingTrack ()
+	{
+		yield return new WaitForSeconds ( 1.0f );
+		nextState = CharacterState.Running;
+	}
+	#endregion
 
+	#region States implementation
 	private void ChangeState ()
 	{
 		switch (nextState)
@@ -194,19 +211,16 @@ public class RunnerController : MonoBehaviour
 
 		case CharacterState.Jumping:
 			nextTime = Time.timeSinceLevelLoad + timeDelay;
-			_animator.SetTrigger ("Jump");
-			nextState = CharacterState.Running;
+			nextX = _transform.position.x + speed * speedFactor * ( timeDelay );
 			break;
 
 		case CharacterState.Changing_Track:
 			nextTime = Time.timeSinceLevelLoad + timeDelay;
 			nextX = _transform.position.x + speed * speedFactor * (timeDelay);
 			currZ = nextZ;
-			nextState = CharacterState.Running;
 			break;
 		}
 	}
-
 	#endregion
 
 	#region Obstacle Effects
@@ -219,6 +233,8 @@ public class RunnerController : MonoBehaviour
 		nextX = _transform.position.x + speed * speedFactor * (timeDelay) + fallingDistance;
 		_animator.SetBool ("Fall", true);
 		StopCoroutine ("RaiseSpeed");
+		StopCoroutine ( "Jumping" );
+		StartCoroutine ( "ChangingTrack" );
 		nextState = CharacterState.Falling;
 	}
 

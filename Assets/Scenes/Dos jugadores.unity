@@ -196,6 +196,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 1191c26c48f23804e93f6f881749a6c8, type: 2}
+      propertyPath: changeTrackSmooth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 1191c26c48f23804e93f6f881749a6c8, type: 2}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 1191c26c48f23804e93f6f881749a6c8, type: 2}
+      propertyPath: fallingDistance
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1191c26c48f23804e93f6f881749a6c8, type: 2}
   m_RootGameObject: {fileID: 1494872935}
@@ -641,7 +653,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 713589205}
   m_LocalRotation: {x: .326578021, y: 0, z: 0, w: .945170283}
-  m_LocalPosition: {x: 13.9989834, y: 6.65239, z: -6.29271746}
+  m_LocalPosition: {x: 11.3450108, y: 6.65239, z: -6.29271746}
   m_LocalScale: {x: .763071001, y: .935518026, z: .632795691}
   m_Children:
   - {fileID: 1842523564}
@@ -2133,7 +2145,7 @@ MonoBehaviour:
   nextPosDistance: .200000003
   timeDelay: .200000003
   speedFactor: 1
-  fallingDistance: 2
+  fallingDistance: 1
   _curState: 0
 --- !u!65 &1494872939
 BoxCollider:
@@ -2645,7 +2657,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1842523564}
   - 212: {fileID: 1842523563}
-  - 114: {fileID: 1842523562}
   m_Layer: 13
   m_Name: Sky
   m_TagString: Untagged
@@ -2653,18 +2664,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1842523562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 3fcf750eee9ea9643b49ab57ddee0af1,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1842523561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f74eef1f7ef24197a4d1f13e245c264, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1842523563
 SpriteRenderer:
   m_ObjectHideFlags: 0
