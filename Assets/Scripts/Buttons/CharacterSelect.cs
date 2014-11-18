@@ -5,30 +5,30 @@ using Menu.Characters;
 [RequireComponent (typeof (UISprite), typeof (UIButtonScale))]
 public class CharacterSelect : MonoBehaviour
 {
-	[SerializeField] private Characters _characterRepresentation;
-	[SerializeField] private UISprite _spriteRender;
-	[SerializeField] private UIButtonScale _button;
+	[SerializeField] private Characters characterRepresentation;
+	[SerializeField] private UISprite spriteRender;
+	[SerializeField] private UIButtonScale button;
 
 	private void Awake ()
 	{
-		_spriteRender = GetComponent<UISprite>();
-		_button = GetComponent<UIButtonScale>();
+		spriteRender = GetComponent<UISprite>();
+		button = GetComponent<UIButtonScale>();
 	}
 
 	public void Select ()
 	{
-		if (_button.enabled)
-			GameManager.instance.PlayerSelection (_characterRepresentation);
+		if (button.enabled)
+			GameManager.Instance.PlayerSelection (characterRepresentation);
 
-		_spriteRender.color = Color.red;
-		_button.enabled = false;
+		spriteRender.color = Color.red;
+		button.enabled = false;
 	}
 
 	private void OnEnable ()
 	{
-		if (!_button.enabled)
-			_button.enabled = true;
-		if (_spriteRender.color != Color.white)
-			_spriteRender.color = Color.white;
+		if (!button.enabled)
+			button.enabled = true;
+		if (spriteRender.color != Color.white)
+			spriteRender.color = Color.white;
 	}
 }

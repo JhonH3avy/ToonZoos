@@ -4,47 +4,57 @@ using System.Collections;
 
 public class MenuController : MonoBehaviour
 {
-	[SerializeField] private GameObject menuPrincipal;
-	[SerializeField] private GameObject seleccionPersonaje;
+    [SerializeField]
+    private GameObject menuPrincipal;
+    [SerializeField]
+    private GameObject seleccionPersonaje;
 
-	[SerializeField] private Button _buttonRace;
-	[SerializeField] private Button _buttonVs;
-	[SerializeField] private Button _buttonUser;
-	[SerializeField] private Button _buttonBack;
+    [SerializeField]
+    private Button buttonRace;
+    [SerializeField]
+    private Button buttonVersus;
+    [SerializeField]
+    private Button buttonUser;
+    [SerializeField]
+    private Button buttonBack;
 
-	private void Start ()
-	{
-		_buttonRace.Click += () => {
-			menuPrincipal.SetActive (false);
-			seleccionPersonaje.SetActive (true);
-		};
+    private void Start ()
+    {
+        buttonRace.Clicking += () =>
+        {
+            menuPrincipal.SetActive ( false );
+            seleccionPersonaje.SetActive ( true );
+        };
 
-		_buttonVs.Click += () => {
-			//TODO rellenar funcion para que los jugadores puedan invitar a otros amigos
-		};
+        buttonVersus.Clicking += () =>
+        {
+            //TODO rellenar funcion para que los jugadores puedan invitar a otros amigos
+        };
 
-		_buttonUser.Click += () => {
-			//TODO hacer aparecer pantalla de usuario
-		};
+        buttonUser.Clicking += () =>
+        {
+            //TODO hacer aparecer pantalla de usuario
+        };
 
-		_buttonBack.Click += () => {
-			menuPrincipal.SetActive(true);
-			seleccionPersonaje.SetActive(false);
-			GameManager.instance.ResetPlayersCharacter ();
-		};
-	}
+        buttonBack.Clicking += () =>
+        {
+            menuPrincipal.SetActive ( true );
+            seleccionPersonaje.SetActive ( false );
+            GameManager.Instance.ResetPlayersCharacter ();
+        };
+    }
 
-	private void Update ()
-	{
-		if (GameManager.instance.GetRemainingPlayers () <= 0)
-		{
-			StartCoroutine (StartGame ());
-		}
-	}
+    private void Update ()
+    {
+        if ( GameManager.Instance.GetRemainingPlayers () <= 0 )
+        {
+            StartCoroutine ( StartGame () );
+        }
+    }
 
-	private IEnumerator StartGame ()
-	{
-		yield return new WaitForSeconds (2.0f);
-		Application.LoadLevel ("Dos Jugadores");
-	}
+    private IEnumerator StartGame ()
+    {
+        yield return new WaitForSeconds ( 2.0f );
+        Application.LoadLevel ( "Dos Jugadores" );
+    }
 }

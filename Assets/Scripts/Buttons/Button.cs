@@ -3,20 +3,20 @@ using System.Collections;
 
 namespace Menu.Button
 {	
-	public delegate void ButtonDelegate ();
+	public delegate void ButtonEventHandler ();
 
 	public class Button : MonoBehaviour
 	{
-		public event ButtonDelegate Click;
+		public event ButtonEventHandler Clicking;
 
 		private void OnMouseUpAsButton ()
 		{
-			OnClick ();
+			OnClicking ();
 		}
 
-		private void OnClick ()
+		private void OnClicking ()
 		{
-			ButtonDelegate handler = Click;
+			ButtonEventHandler handler = Clicking;
 
 			if (handler != null)
 			{

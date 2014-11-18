@@ -5,34 +5,34 @@ using Menu.Characters;
 
 public class GameManager : MonoBehaviour
 {
-	private static GameManager _instance;
+	private static GameManager instance;
 	// Singleton de la instancia del GameManager
-	public static GameManager instance
+	public static GameManager Instance
 	{
 		get
 		{
-			if(_instance == null)
+			if(instance == null)
 			{
-				_instance = GameObject.FindObjectOfType<GameManager>();
+				instance = GameObject.FindObjectOfType<GameManager>();
 				
-				if (_instance == null)
+				if (instance == null)
 				{
 					Debug.LogError("An instance of " + typeof(GameManager) + 
 					               " is needed in the scene, but there is none.");
 				}
 				else
 				{
-					DontDestroyOnLoad (_instance.gameObject);
+					DontDestroyOnLoad (instance.gameObject);
 				}
 			}
 			
-			return _instance;
+			return instance;
 		}
 	}
 
-	public int playersCount;
+	public int PlayersCount;
 
-	private List<Player> _players;
+	private List<Player> players;
 	private Player currPlayer;
 
 	/*
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
 	 * */
 	private Player GetNextPlayer ()
 	{
-		foreach (var player in _players)
+		foreach (var player in players)
 		{
 			if (player.character == Characters.None)
 				return player;
@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
 	public int GetRemainingPlayers ()
 	{
 		var i = 0;
-		foreach (var player in _players)
+		foreach (var player in players)
 			if (player.character == Characters.None)
 				i++;
 
@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
 
 	public void ResetPlayersCharacter ()
 	{
-		foreach (var player in _players)
+		foreach (var player in players)
 		{
 			player.character = Characters.None;
 
@@ -97,17 +97,17 @@ public class GameManager : MonoBehaviour
 
 	private void Awake ()
 	{
-		if (instance != this)
+		if (Instance != this)
 		{
 			Destroy (gameObject);
 		}
 
-		_players = new List<Player> ();
+		players = new List<Player> ();
 
 		// Llenamos la lista de jugadores hasta la cantidad de jugadores que esten en la variable playersCount
-		for (int i = 0; i < playersCount; i++)
+		for (int i = 0; i < PlayersCount; i++)
 		{
-			_players.Add (new Player (Characters.None, i + 1));
+			players.Add (new Player (Characters.None, i + 1));
 		}	
 
 		currPlayer = GetNextPlayer ();
@@ -120,7 +120,7 @@ public class GameManager : MonoBehaviour
 
 	private void OnDisable ()
 	{
-		_players.Clear ();
+		players.Clear ();
 		currPlayer = null;
 	}
 
@@ -134,7 +134,7 @@ public class GameManager : MonoBehaviour
 
 	private void CreatePlayers ()
 	{
-		foreach (var player in _players)
+		foreach (var player in players)
 		{
 			var prefab = Resources.Load<GameObject> ("Prefabs/Players/Player" + player.character.ToString());
 			if(prefab != null)

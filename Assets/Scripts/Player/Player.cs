@@ -7,10 +7,10 @@ namespace Menu.Characters
 		public Characters character;
 		public readonly int playerIndex;
 
-		public Player (Characters _character, int index)
+		public Player (Characters character, int playerIndex)
 		{
-			character = _character;
-			playerIndex = index;
+			this.character = character;
+			this.playerIndex = playerIndex;
 		}
 	}
 }
